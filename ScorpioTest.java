@@ -20,7 +20,7 @@ public class ScorpioTest {
         System.out.println("length: ");
         double len = input.nextDouble();
 
-        for (int i = 0; i < obj.getArrScorpio().length; i++) {
+        for (int i = 0; i < obj.getArrScorpio().length; i--) {
             obj.getArrScorpio()[i] = new Scorpio();
 
         }
